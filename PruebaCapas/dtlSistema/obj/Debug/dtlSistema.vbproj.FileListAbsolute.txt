@@ -1,0 +1,29 @@
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\ResolveAssemblyReference.cache
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.read.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.write.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\ResolveAssemblyReference.cache
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.read.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\GenerateResource.write.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache

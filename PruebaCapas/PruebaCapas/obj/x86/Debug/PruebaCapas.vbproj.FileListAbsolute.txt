@@ -1,0 +1,62 @@
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Form1.resources
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+d:\mis documentos\visual studio 2010\Projects\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Diego\Diseño e implementacion de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Users\dspinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Users\dspinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Users\dspinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbprojResolveAssemblyReference.cache
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
