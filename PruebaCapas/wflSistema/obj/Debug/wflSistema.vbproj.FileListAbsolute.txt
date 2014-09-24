@@ -45,3 +45,18 @@ C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\C
 C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
 C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
 C:\Users\Diego Spinedi\Google Drive\Instituto12\Analisis y diseño de sistemas\Clases\Programacion en Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb

@@ -6,7 +6,7 @@ Public Class wflClientes
 
     End Sub
 
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef strrazonsocial As String, ByRef strmensaje As String, calle As String)
+    Public Sub insertarRegistro(ByVal idcliente As Integer, ByVal strrazonsocial As String, ByRef strmensaje As String, calle As String)
         Dim x As New brlClientes
 
         If Not x.ExisteCliente(idcliente) Then
