@@ -8,12 +8,12 @@ GO
 -- =============================================
 CREATE PROCEDURE clientes_insertarRegistro
 	@idcliente int,
-	@razonsocial varchar (100),
-	@calle varchar (100)
+	@razonsocial varchar (100)
+	
 
 	as
 	begin
-   insert into dbo.Clientes values(@idcliente,@razonsocial,@calle)
+   insert into dbo.Clientes values(@idcliente,@razonsocial)
 
 END
 GO

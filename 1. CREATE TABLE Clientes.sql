@@ -13,8 +13,8 @@ GO
 
 CREATE TABLE [dbo].[Clientes](
 	[idcliente] [int] NULL,
-	[razonsocial] [varchar](100) NULL,
-	[calle] [varchar] (100) NULL
+	[razonsocial] [varchar](100) NULL
+	
 
 ) ON [PRIMARY]
 
