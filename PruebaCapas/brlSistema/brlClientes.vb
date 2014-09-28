@@ -4,12 +4,11 @@ Public Class brlClientes
     Public Sub obtenerRegistro(ByVal idcliente As Integer, ByRef clientes As DataTable)
         Dim x As New dtlClientes
         x.obtenerRegistro(idcliente, clientes)
-
     End Sub
 
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef strrazonsocial As String, calle As String)
+    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef strrazonsocial As String, ByRef calle As String, ByRef CUIL As String)
         Dim x As New dtlClientes
-        x.insertarRegistro(idcliente, strrazonsocial, calle)
+        x.insertarRegistro(idcliente, strrazonsocial, calle, CUIL)
     End Sub
 
     Public Function ExisteCliente(ByVal idcliente As Integer) As Boolean
@@ -21,6 +20,19 @@ Public Class brlClientes
             ExisteCliente = True
         Else
             ExisteCliente = False
+        End If
+    End Function
+
+    Public Function ExisteCUIL(ByVal CUIL As String, ByRef idcliente As Integer) As Boolean
+        Dim x As New dtlClientes
+        Dim clientes As New DataTable
+        x.obtenerRegistro(CUIL, clientes)
+
+        If clientes.Rows.Count > 0 Then
+            idcliente = clientes.Rows(0)("idcliente")
+            ExisteCUIL = True
+        Else
+            ExisteCUIL = False
         End If
     End Function
 

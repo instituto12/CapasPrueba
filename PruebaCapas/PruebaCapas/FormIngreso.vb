@@ -9,9 +9,9 @@ Public Class FormIngreso
 
         If dt.Rows.Count > 0 Then
             For Each MiDataRow As DataRow In dt.Rows
-                Me.txtrazonsocial.Text = MiDataRow(1).ToString
+                Me.txtrazonsocial.Text = MiDataRow(1).ToString()
+                Me.txtCUIL.Text = MiDataRow(2).ToString()
             Next
-
         Else
             MsgBox("El cliente no existe en la base de datos", vbInformation + vbOKOnly, "Aviso al operador")
         End If
@@ -26,12 +26,14 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(txtIdCliente.Text, txtrazonsocial.Text, strmensaje, txtcalle.Text)
+        x.insertarRegistro(txtIdCliente.Text, txtrazonsocial.Text, strmensaje, txtcalle.Text, txtCUIL.Text)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
+        txtcalle.Text = ""
+        txtCUIL.Text = ""
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -42,9 +44,15 @@ Public Class FormIngreso
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
+        txtcalle.Text = ""
+        txtCUIL.Text = ""
     End Sub
 
     Private Sub btnCerrar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrar.Click
         End
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
     End Sub
 End Class

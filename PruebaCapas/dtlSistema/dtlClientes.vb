@@ -8,7 +8,7 @@ Public Class dtlClientes
     Public Sub obtenerRegistro(ByRef idcliente As Integer, ByRef clientes As DataTable)
 
         'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
-        oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
+        oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
 
         If oConn.State = 1 Then oConn.Close()
         oConn.Open()
@@ -32,16 +32,46 @@ Public Class dtlClientes
         clientes = table
 
     End Sub
-    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef strrazonSocial As String, calle As String)
+
+    Public Sub obtenerRegistro(ByRef CUIL As String, ByRef clientes As DataTable)
+
         'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
-        oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
+        oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
+
+        If oConn.State = 1 Then oConn.Close()
+        oConn.Open()
+
+        Dim table As New DataTable
+        Dim Adp As New SqlDataAdapter()
+
+        Adp.SelectCommand = New SqlCommand() ' Creando una Instancia de SqlCommand
+        Adp.SelectCommand.Connection = oConn 'Conexión
+
+        Adp.SelectCommand.CommandType = CommandType.StoredProcedure
+        Adp.SelectCommand.CommandText = "Clientes_obtenerRegistroPorCUIL"
+
+        Adp.SelectCommand.Parameters.Add("@CUIL", SqlDbType.Char, 11)
+        Adp.SelectCommand.Parameters("@CUIL").Value = CUIL
+
+        Adp.Fill(table)
+
+        oConn.Close()
+
+        clientes = table
+
+    End Sub
+
+    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef strrazonSocial As String, ByRef calle As String, ByRef CUIL As String)
+        'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
+        oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
         If oConn.State = 1 Then oConn.Close()
         oConn.Open()
         Dim cmd As New SqlCommand
-        Dim param(1) As SqlParameter
+        Dim param(2) As SqlParameter
 
         param(0) = New SqlParameter("@idcliente", intidcliente)
         param(1) = New SqlParameter("@razonsocial", strrazonSocial)
+        param(2) = New SqlParameter("@CUIL", CUIL)
 
         cmd.CommandType = CommandType.StoredProcedure
         cmd.CommandText = "clientes_insertarRegistro"
@@ -57,7 +87,7 @@ Public Class dtlClientes
 
     Public Sub eliminarRegistro(ByRef intidcliente As Integer)
         'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
-        oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
+        oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
         If oConn.State = 1 Then oConn.Close()
         oConn.Open()
         Dim cmd As New SqlCommand

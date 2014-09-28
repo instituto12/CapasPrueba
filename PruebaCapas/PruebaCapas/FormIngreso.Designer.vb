@@ -32,12 +32,14 @@ Partial Class FormIngreso
         Me.Button2 = New System.Windows.Forms.Button()
         Me.txtcalle = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtCUIL = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(53, 91)
+        Me.Label1.Location = New System.Drawing.Point(26, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(97, 13)
         Me.Label1.TabIndex = 0
@@ -46,7 +48,7 @@ Partial Class FormIngreso
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(76, 137)
+        Me.Label2.Location = New System.Drawing.Point(50, 53)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 1
@@ -54,17 +56,17 @@ Partial Class FormIngreso
         '
         'txtIdCliente
         '
-        Me.txtIdCliente.Location = New System.Drawing.Point(156, 88)
+        Me.txtIdCliente.Location = New System.Drawing.Point(129, 24)
         Me.txtIdCliente.Name = "txtIdCliente"
         Me.txtIdCliente.Size = New System.Drawing.Size(66, 20)
-        Me.txtIdCliente.TabIndex = 2
+        Me.txtIdCliente.TabIndex = 0
         '
         'txtrazonsocial
         '
-        Me.txtrazonsocial.Location = New System.Drawing.Point(155, 134)
+        Me.txtrazonsocial.Location = New System.Drawing.Point(129, 50)
         Me.txtrazonsocial.Name = "txtrazonsocial"
         Me.txtrazonsocial.Size = New System.Drawing.Size(234, 20)
-        Me.txtrazonsocial.TabIndex = 3
+        Me.txtrazonsocial.TabIndex = 1
         '
         'btnCerrar
         '
@@ -104,25 +106,43 @@ Partial Class FormIngreso
         '
         'txtcalle
         '
-        Me.txtcalle.Location = New System.Drawing.Point(156, 173)
+        Me.txtcalle.Location = New System.Drawing.Point(129, 76)
         Me.txtcalle.Name = "txtcalle"
         Me.txtcalle.Size = New System.Drawing.Size(234, 20)
-        Me.txtcalle.TabIndex = 9
+        Me.txtcalle.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(77, 176)
+        Me.Label3.Location = New System.Drawing.Point(50, 79)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(33, 13)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Calle:"
+        '
+        'txtCUIL
+        '
+        Me.txtCUIL.Location = New System.Drawing.Point(129, 102)
+        Me.txtCUIL.Name = "txtCUIL"
+        Me.txtCUIL.Size = New System.Drawing.Size(110, 20)
+        Me.txtCUIL.TabIndex = 3
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(50, 105)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(34, 13)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "CUIL:"
         '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(463, 310)
+        Me.Controls.Add(Me.txtCUIL)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtcalle)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
@@ -149,5 +169,7 @@ Partial Class FormIngreso
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents txtcalle As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtCUIL As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 
 End Class

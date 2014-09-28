@@ -79,3 +79,22 @@ C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\P
 C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
 C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
 C:\DIEGO\Instituto12\Nueva carpeta\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbprojResolveAssemblyReference.cache
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+D:\GitHub\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
