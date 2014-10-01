@@ -3,17 +3,23 @@ Public Class brlClientes
 
     Public Sub obtenerRegistro(ByVal idcliente As Integer, ByRef clientes As DataTable)
         Dim x As New dtlClientes
+        'MsgBox("BRL-busca ID", vbInformation + vbOKOnly, "Aviso al operador")
         x.obtenerRegistro(idcliente, clientes)
     End Sub
-
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef strrazonsocial As String, ByRef calle As String, ByRef CUIL As String)
+    Public Sub obtenerRegistroCuil(ByVal CUIL As String, ByRef clientes As DataTable)
         Dim x As New dtlClientes
-        x.insertarRegistro(idcliente, strrazonsocial, calle, CUIL)
+        x.obtenerRegistroCuil(CUIL, clientes)
+    End Sub
+
+    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef CUIL As String, ByRef strrazonsocial As String, ByRef calle As String, ByRef email As String, ByRef dirWeb As String)
+        Dim x As New dtlClientes
+        x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb)
     End Sub
 
     Public Function ExisteCliente(ByVal idcliente As Integer) As Boolean
         Dim x As New dtlClientes
         Dim clientes As New DataTable
+
         x.obtenerRegistro(idcliente, clientes)
 
         If clientes.Rows.Count > 0 Then
@@ -23,13 +29,15 @@ Public Class brlClientes
         End If
     End Function
 
-    Public Function ExisteCUIL(ByVal CUIL As String, ByRef idcliente As Integer) As Boolean
+    Public Function ExisteCUIL(ByVal CUIL As String) As Boolean
         Dim x As New dtlClientes
         Dim clientes As New DataTable
-        x.obtenerRegistro(CUIL, clientes)
+        'Dim idcliente As Integer
+
+        x.obtenerRegistroCuil(CUIL, clientes)
 
         If clientes.Rows.Count > 0 Then
-            idcliente = clientes.Rows(0)("idcliente")
+            'idcliente = clientes.Rows(0)("idcliente")
             ExisteCUIL = True
         Else
             ExisteCUIL = False

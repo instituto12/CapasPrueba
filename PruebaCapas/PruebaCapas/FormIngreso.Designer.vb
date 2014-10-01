@@ -28,12 +28,16 @@ Partial Class FormIngreso
         Me.txtrazonsocial = New System.Windows.Forms.TextBox()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnAceptar = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnInsertar = New System.Windows.Forms.Button()
+        Me.btnEliminar = New System.Windows.Forms.Button()
         Me.txtcalle = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtCUIL = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtDirWeb = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -48,7 +52,7 @@ Partial Class FormIngreso
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 53)
+        Me.Label2.Location = New System.Drawing.Point(50, 80)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 1
@@ -63,58 +67,58 @@ Partial Class FormIngreso
         '
         'txtrazonsocial
         '
-        Me.txtrazonsocial.Location = New System.Drawing.Point(129, 50)
+        Me.txtrazonsocial.Location = New System.Drawing.Point(129, 77)
         Me.txtrazonsocial.Name = "txtrazonsocial"
         Me.txtrazonsocial.Size = New System.Drawing.Size(234, 20)
-        Me.txtrazonsocial.TabIndex = 1
+        Me.txtrazonsocial.TabIndex = 4
         '
         'btnCerrar
         '
-        Me.btnCerrar.Location = New System.Drawing.Point(12, 262)
+        Me.btnCerrar.Location = New System.Drawing.Point(48, 246)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(75, 23)
-        Me.btnCerrar.TabIndex = 4
+        Me.btnCerrar.TabIndex = 3
         Me.btnCerrar.Text = "Cerrar"
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
         'btnAceptar
         '
-        Me.btnAceptar.Location = New System.Drawing.Point(109, 262)
+        Me.btnAceptar.Location = New System.Drawing.Point(187, 50)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(75, 23)
-        Me.btnAceptar.TabIndex = 5
+        Me.btnAceptar.TabIndex = 2
         Me.btnAceptar.Text = "Buscar"
         Me.btnAceptar.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnInsertar
         '
-        Me.Button1.Location = New System.Drawing.Point(207, 262)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Insertar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnInsertar.Location = New System.Drawing.Point(171, 246)
+        Me.btnInsertar.Name = "btnInsertar"
+        Me.btnInsertar.Size = New System.Drawing.Size(75, 23)
+        Me.btnInsertar.TabIndex = 8
+        Me.btnInsertar.Text = "Insertar"
+        Me.btnInsertar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnEliminar
         '
-        Me.Button2.Location = New System.Drawing.Point(305, 262)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Eliminar"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnEliminar.Location = New System.Drawing.Point(288, 246)
+        Me.btnEliminar.Name = "btnEliminar"
+        Me.btnEliminar.Size = New System.Drawing.Size(75, 23)
+        Me.btnEliminar.TabIndex = 9
+        Me.btnEliminar.Text = "Eliminar"
+        Me.btnEliminar.UseVisualStyleBackColor = True
         '
         'txtcalle
         '
-        Me.txtcalle.Location = New System.Drawing.Point(129, 76)
+        Me.txtcalle.Location = New System.Drawing.Point(129, 103)
         Me.txtcalle.Name = "txtcalle"
         Me.txtcalle.Size = New System.Drawing.Size(234, 20)
-        Me.txtcalle.TabIndex = 2
+        Me.txtcalle.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(50, 79)
+        Me.Label3.Location = New System.Drawing.Point(90, 106)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(33, 13)
         Me.Label3.TabIndex = 8
@@ -122,31 +126,67 @@ Partial Class FormIngreso
         '
         'txtCUIL
         '
-        Me.txtCUIL.Location = New System.Drawing.Point(129, 102)
+        Me.txtCUIL.Location = New System.Drawing.Point(253, 21)
         Me.txtCUIL.Name = "txtCUIL"
         Me.txtCUIL.Size = New System.Drawing.Size(110, 20)
-        Me.txtCUIL.TabIndex = 3
+        Me.txtCUIL.TabIndex = 1
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(50, 105)
+        Me.Label4.Location = New System.Drawing.Point(212, 24)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 13)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "CUIL:"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(86, 136)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(37, 13)
+        Me.Label5.TabIndex = 11
+        Me.Label5.Text = "e-mail:"
+        '
+        'txtEmail
+        '
+        Me.txtEmail.Location = New System.Drawing.Point(129, 133)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(234, 20)
+        Me.txtEmail.TabIndex = 6
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(42, 166)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(81, 13)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "Dirección Web:"
+        '
+        'txtDirWeb
+        '
+        Me.txtDirWeb.Location = New System.Drawing.Point(129, 163)
+        Me.txtDirWeb.Name = "txtDirWeb"
+        Me.txtDirWeb.Size = New System.Drawing.Size(234, 20)
+        Me.txtDirWeb.TabIndex = 7
+        '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(463, 310)
+        Me.ClientSize = New System.Drawing.Size(425, 298)
+        Me.Controls.Add(Me.txtDirWeb)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.txtEmail)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtCUIL)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtcalle)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnEliminar)
+        Me.Controls.Add(Me.btnInsertar)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.btnCerrar)
         Me.Controls.Add(Me.txtrazonsocial)
@@ -165,11 +205,15 @@ Partial Class FormIngreso
     Friend WithEvents txtrazonsocial As System.Windows.Forms.TextBox
     Friend WithEvents btnCerrar As System.Windows.Forms.Button
     Friend WithEvents btnAceptar As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnInsertar As System.Windows.Forms.Button
+    Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents txtcalle As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents txtCUIL As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents txtEmail As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents txtDirWeb As System.Windows.Forms.TextBox
 
 End Class

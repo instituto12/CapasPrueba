@@ -45,3 +45,12 @@ D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResou
 D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
 D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
 D:\GitHub\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+D:\caty\Git\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
