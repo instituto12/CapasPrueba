@@ -6,7 +6,7 @@ GO
 -- =============================================
 -- Author:		Charly Blues
 -- =============================================
-CREATE PROCEDURE sp_eliminarRegistro
+CREATE PROCEDURE clientes_eliminarRegistro
 
 @idcliente int
 
