@@ -24,6 +24,7 @@ Public Class FormIngreso
                 Me.txtcalle.Text = MiDataRow(3).ToString()
                 Me.txtEmail.Text = MiDataRow(4).ToString()
                 Me.txtDirWeb.Text = MiDataRow(5).ToString()
+                Me.txtTelefono.Text = MiDataRow(6).ToString()
             Next
         Else
             MsgBox("El cliente no existe en la base de datos", vbInformation + vbOKOnly, "Aviso al operador")
@@ -39,7 +40,7 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtcalle.Text, txtEmail.Text, txtDirWeb.Text)
+        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtcalle.Text, txtEmail.Text, txtDirWeb.Text, txtTelefono.Text)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
@@ -64,6 +65,7 @@ Public Class FormIngreso
         txtcalle.Text = ""
         txtEmail.Text = ""
         txtDirWeb.Text = ""
+        txtTelefono.Text = ""
     End Sub
 
     Private Sub btnCerrar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrar.Click

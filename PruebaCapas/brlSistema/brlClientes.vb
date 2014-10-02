@@ -11,9 +11,9 @@ Public Class brlClientes
         x.obtenerRegistroCuil(CUIL, clientes)
     End Sub
 
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef CUIL As String, ByRef strrazonsocial As String, ByRef calle As String, ByRef email As String, ByRef dirWeb As String)
+    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef CUIL As String, ByRef strrazonsocial As String, ByRef calle As String, ByRef email As String, ByRef dirWeb As String, ByRef telefono As String)
         Dim x As New dtlClientes
-        x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb)
+        x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono)
     End Sub
 
     Public Function ExisteCliente(ByVal idcliente As Integer) As Boolean

@@ -72,3 +72,15 @@ D:\caty\Git\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateRes
 D:\caty\Git\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
 D:\caty\Git\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
 D:\caty\Git\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.pdb
+C:\GitProyects\Capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbprojResolveAssemblyReference.cache
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.Resources.resources
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateResource.Cache
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
+C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb

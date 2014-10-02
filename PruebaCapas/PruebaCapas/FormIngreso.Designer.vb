@@ -38,6 +38,8 @@ Partial Class FormIngreso
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtDirWeb = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -172,11 +174,29 @@ Partial Class FormIngreso
         Me.txtDirWeb.Size = New System.Drawing.Size(234, 20)
         Me.txtDirWeb.TabIndex = 7
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(71, 200)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(52, 13)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "Teléfono:"
+        '
+        'txtTelefono
+        '
+        Me.txtTelefono.Location = New System.Drawing.Point(129, 197)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(234, 20)
+        Me.txtTelefono.TabIndex = 15
+        '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(425, 298)
+        Me.Controls.Add(Me.txtTelefono)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.txtDirWeb)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtEmail)
@@ -215,5 +235,7 @@ Partial Class FormIngreso
     Friend WithEvents txtEmail As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents txtDirWeb As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents txtTelefono As System.Windows.Forms.TextBox
 
 End Class
