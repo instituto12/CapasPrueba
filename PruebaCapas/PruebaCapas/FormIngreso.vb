@@ -40,7 +40,7 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtcalle.Text, txtEmail.Text, txtDirWeb.Text, txtTelefono.Text)
+        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtcalle.Text, txtEmail.Text, txtDirWeb.Text, txtTelefono.Text, txtTelefonocelular.Text)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 

@@ -105,3 +105,18 @@ C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.Generate
 C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
 C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
 C:\GitProyects\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb

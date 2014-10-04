@@ -63,3 +63,12 @@ C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.Generate
 C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
 C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
 C:\GitProyects\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb

@@ -84,3 +84,15 @@ C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.Generate
 C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
 C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
 C:\GitProyects\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\brlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\bin\Debug\dtlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb

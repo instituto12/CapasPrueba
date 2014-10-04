@@ -136,3 +136,22 @@ C:\GitProyects\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbprojRes
 C:\GitProyects\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
 C:\GitProyects\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
 C:\GitProyects\Capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbprojResolveAssemblyReference.cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.exe
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\PruebaCapas.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.dll
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\wflSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\brlSistema.xml
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.pdb
+H:\Mis Documentos\Diego\Facultad\Diseño e implementacion de Sistemas\Git\capas\PruebaCapas\PruebaCapas\bin\Debug\dtlSistema.xml
