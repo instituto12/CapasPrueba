@@ -11,7 +11,7 @@ GO
 -- Description:	Obtiene un registro de la tabla
 -- Clientes según valor asignado a @idpersona
 -- =============================================
-CREATE PROCEDURE  Clientes_obtenerRegistro
+CREATE PROCEDURE  clientes_obtenerRegistro
 	@idcliente int	
 AS
 

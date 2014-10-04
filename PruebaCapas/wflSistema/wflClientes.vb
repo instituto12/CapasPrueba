@@ -1,24 +1,49 @@
 ﻿Imports brlSistema
 Public Class wflClientes
     Public Sub obtenerRegistro(ByVal idcliente As Integer, ByRef clientes As DataTable)
+
         Dim x As New brlClientes
+        'MsgBox("WFL-busca ID", vbInformation + vbOKOnly, "Aviso al operador")
         x.obtenerRegistro(idcliente, clientes)
 
     End Sub
+    Public Sub obtenerRegistroCuil(ByVal CUIL As String, ByRef clientes As DataTable)
 
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByVal strrazonsocial As String, ByRef strmensaje As String, ByRef calle As String, ByRef CUIL As String)
         Dim x As New brlClientes
+
+        x.obtenerRegistroCuil(CUIL, clientes)
+
+    End Sub
+
+
+
+    Public Sub insertarRegistro(ByRef strmensaje As String,
+                                ByRef idcliente As Integer,
+                                ByRef CUIL As String,
+                                ByVal strrazonsocial As String,
+                                ByRef calle As String,
+                                ByRef email As String,
+                                ByRef dirWeb As String,
+                                ByRef telefono As String,
+                                ByRef telefonocelular As String)
+        Dim x As New brlClientes
+        Dim clientes As New DataTable
         Dim id As Integer
 
         If Not x.ExisteCliente(idcliente) Then
-            If Not x.ExisteCUIL(CUIL, id) Then
-                x.insertarRegistro(idcliente, strrazonsocial, calle, CUIL)
+
+            If Not x.ExisteCUIL(CUIL) Then
+                x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono, telefonocelular)
                 strmensaje = "El cliente se agrego con exito"
             Else
-                strmensaje = "El CUIL ya fue ingresado para el IdCliente " & id.ToString()
+                x.obtenerRegistroCuil(CUIL, clientes)
+                If clientes.Rows.Count > 0 Then
+                    id = clientes.Rows(0)("idcliente")
+                    strmensaje = "El CUIL ya fue ingresado para el IdCliente: " & id.ToString()
+                End If
             End If
         Else
-            strmensaje = "El cliente ya existe en la base"
+            strmensaje = "El cliente Nº: " & idcliente & " ya existe en la base"
         End If
 
     End Sub
