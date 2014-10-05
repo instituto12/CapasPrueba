@@ -3,6 +3,13 @@
 
     ViewBag.Title = "Clientes";
 }
+@if (ViewData.ModelState.IsValid)
+{
+    if(@ViewBag.CUIL != null)
+    {
+        @ViewBag.CUIL;
+    }
+}
 
 <h2>Clientes</h2>
 
@@ -16,6 +23,12 @@
             @Html.LabelFor(model => model.NroCliente)
             @Html.TextBoxFor(model => model.NroCliente)
         </dt>
+
+       <dd>
+           @Html.LabelFor(model => model.CUIL)
+           @Html.TextBoxFor(model => model.CUIL)
+           @Html.ValidationMessageFor(model => Model.CUIL)
+       </dd>
 
         <dd>
             @Html.LabelFor(model => model.RazonSocial)

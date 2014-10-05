@@ -5,7 +5,7 @@
 	@calle varchar(100),
 	@email varchar(100),
 	@dirWeb varchar(100),
-	@telefono varchar (100)
+	@telefono varchar (100),
 	@telefonocelular varchar(12)
 AS 
 INSERT INTO Clientes (idcliente,
@@ -14,7 +14,7 @@ INSERT INTO Clientes (idcliente,
 					calle,
 					mail,
 					web,
-					telefono
+					telefono,
 					telefonocelular) 
 	VALUES(@idCliente, 
 			@razonsocial,
@@ -22,5 +22,5 @@ INSERT INTO Clientes (idcliente,
 			@calle,
 			@email,
 			@dirWeb,
-			@telefono
+			@telefono,
 			@telefonocelular)

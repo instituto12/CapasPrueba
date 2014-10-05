@@ -6,7 +6,6 @@ using System.Web;
 using System.Web.Mvc;
 using wflSistema;
 
-
 namespace AppMVC.Controllers
 {
     public class ClientesController : Controller
@@ -22,16 +21,27 @@ namespace AppMVC.Controllers
             return View();
         }
 
+        [AcceptVerbs(HttpVerbs.Post)]
+        public ActionResult Index(ClientesModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.CUIL = model.CUIL;
+            }
+            return View(model);
+        }
 
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult Insertar(ClientesModel cli )
+        public ActionResult Insertar(ClientesModel cli)
         {
             wflClientes owflcli = new wflClientes();
             string strmensaje="";
-            owflcli.insertarRegistro(cli.NroCliente,cli.RazonSocial,ref strmensaje,cli.Domicilio);
-            return View();
+            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio, null, null, null, null);
+            return RedirectToRoute(new { contoller = "Clientes", action = "Index" });
+            //Andrés: vuelvo al formulario de carga de clientes.
+            //return View();
         }
 
     }

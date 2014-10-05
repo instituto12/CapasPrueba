@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace AppMVC.Models
 {
@@ -18,6 +19,11 @@ namespace AppMVC.Models
 
             [DisplayName("Domicilio")]
             public string Domicilio { get; set; }
+
+            [DisplayName("CUIL")]
+            [Required(ErrorMessage = "El CUIL es requerido")]
+            [StringLength(11, ErrorMessage = "Debe ingresar una cadena de 11 dígitos")]
+            public string CUIL { get; set; }
 
             
         

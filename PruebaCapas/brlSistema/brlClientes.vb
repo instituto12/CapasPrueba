@@ -11,7 +11,7 @@ Public Class brlClientes
         x.obtenerRegistroCuil(CUIL, clientes)
     End Sub
 
-    Public Sub insertarRegistro(ByVal idcliente As Integer, ByRef CUIL As String, ByRef strrazonsocial As String, ByRef calle As String, ByRef email As String, ByRef dirWeb As String, ByRef telefono As String, ByRef telefonocelular As String)
+    Public Sub insertarRegistro(ByVal idcliente As Integer, ByVal CUIL As String, ByVal strrazonsocial As String, ByVal calle As String, Optional ByVal email As String = Nothing, Optional ByVal dirWeb As String = Nothing, Optional ByVal telefono As String = Nothing, Optional ByVal telefonocelular As String = Nothing)
         Dim x As New dtlClientes
         x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono, telefonocelular)
     End Sub

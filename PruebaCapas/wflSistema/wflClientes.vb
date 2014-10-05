@@ -14,18 +14,15 @@ Public Class wflClientes
         x.obtenerRegistroCuil(CUIL, clientes)
 
     End Sub
-
-
-
     Public Sub insertarRegistro(ByRef strmensaje As String,
-                                ByRef idcliente As Integer,
-                                ByRef CUIL As String,
+                                ByVal idcliente As Integer,
+                                ByVal CUIL As String,
                                 ByVal strrazonsocial As String,
-                                ByRef calle As String,
-                                ByRef email As String,
-                                ByRef dirWeb As String,
-                                ByRef telefono As String,
-                                ByRef telefonocelular As String)
+                                ByVal calle As String,
+                                Optional ByVal email As String = Nothing,
+                                Optional ByVal dirWeb As String = Nothing,
+                                Optional ByVal telefono As String = Nothing,
+                                Optional ByVal telefonocelular As String = Nothing)
         Dim x As New brlClientes
         Dim clientes As New DataTable
         Dim id As Integer
