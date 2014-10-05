@@ -39,9 +39,7 @@ namespace AppMVC.Controllers
             wflClientes owflcli = new wflClientes();
             string strmensaje="";
             owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio, null, null, null, null);
-            return RedirectToRoute(new { contoller = "Clientes", action = "Index" });
-            //Andrés: vuelvo al formulario de carga de clientes.
-            //return View();
+            return View();
         }
 
     }
