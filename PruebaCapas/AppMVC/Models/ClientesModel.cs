@@ -11,7 +11,7 @@ namespace AppMVC.Models
     {
         
         
-            [DisplayName("Nro.Cliente")]
+            [DisplayName("Nro.Clientes")]
             public int NroCliente { get; set; }
 
             [DisplayName("Razón Social")]
@@ -19,6 +19,13 @@ namespace AppMVC.Models
 
             [DisplayName("Domicilio")]
             public string Domicilio { get; set; }
+
+            [DisplayName("e-mail")]
+            public string email { get; set; }
+
+            [DisplayName("Pagina Web")]
+            public string pagWeb { get; set; }
+
 
             [DisplayName("CUIL")]
             [Required(ErrorMessage = "El CUIL es requerido")]

@@ -38,7 +38,7 @@ namespace AppMVC.Controllers
         {
             wflClientes owflcli = new wflClientes();
             string strmensaje="";
-            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio, null, null, null, null);
+            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio, cli.email,cli.pagWeb, null, null);
             return View();
         }
 

@@ -20,30 +20,21 @@
 
    <dl class="dl-horizontal">
         <dt>
-            @Html.LabelFor(model => model.NroCliente)
-            @Html.TextBoxFor(model => model.NroCliente)
-        </dt>
-
-       <dd>
+           @Html.LabelFor(model => model.NroCliente)
+           @Html.TextBoxFor(model => model.NroCliente)
            @Html.LabelFor(model => model.CUIL)
            @Html.TextBoxFor(model => model.CUIL)
            @Html.ValidationMessageFor(model => Model.CUIL)
-       </dd>
-
-        <dd>
-            @Html.LabelFor(model => model.RazonSocial)
-            @Html.TextBoxFor(model => model.RazonSocial)
-        </dd>
-
-        <dt>
-            @Html.LabelFor(model => model.Domicilio)
-            @Html.TextBoxFor(model => model.Domicilio)
-        </dt>
-
-        
-
-    </dl>
-    
+           @Html.LabelFor(model => model.RazonSocial)
+           @Html.TextBoxFor(model => model.RazonSocial)
+           @Html.LabelFor(model => model.Domicilio)
+           @Html.TextBoxFor(model => model.Domicilio)
+           @Html.LabelFor(model => model.email)
+           @Html.TextBoxFor(model => model.email)
+           @Html.LabelFor(model => model.pagWeb)
+           @Html.TextBoxFor(model => model.pagWeb)
+         </dt>
+     </dl>
     <p> <input type="submit" value="Enviar formulario" /> </p>
 
 }
