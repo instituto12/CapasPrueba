@@ -61,13 +61,13 @@ Public Class dtlClientes
 
     End Sub
 
-    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef CUIL As String, ByRef strrazonSocial As String, ByRef calle As String, Optional ByRef email As String = Nothing, Optional ByRef dirWeb As String = Nothing, Optional ByRef telefono As String = Nothing, Optional ByRef telefonocelular As String = Nothing)
+    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef CUIL As String, ByRef strrazonSocial As String, ByRef calle As String, Optional ByRef email As String = Nothing, Optional ByRef dirWeb As String = Nothing, Optional ByRef telefono As String = Nothing, Optional ByRef telefonocelular As String = Nothing, Optional ByRef localidad As String = Nothing)
         'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
         oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
         If oConn.State = 1 Then oConn.Close()
         oConn.Open()
         Dim cmd As New SqlCommand
-        Dim param(7) As SqlParameter
+        Dim param(8) As SqlParameter
 
         param(0) = New SqlParameter("@idcliente", intidcliente)
         param(1) = New SqlParameter("@razonsocial", strrazonSocial)
@@ -86,6 +86,14 @@ Public Class dtlClientes
         param(7) = New SqlParameter("@telefonocelular", SqlDbType.VarChar)
         param(7).IsNullable = True
         param(7).Value = IIf(telefonocelular Is Nothing, DBNull.Value, telefonocelular)
+        param(8) = New SqlParameter("@localidad", SqlDbType.VarChar)
+        param(8).IsNullable = True
+        param(8).Value = IIf(localidad Is Nothing, DBNull.Value, localidad)
+
+
+
+
+
 
 
         cmd.CommandType = CommandType.StoredProcedure
@@ -122,4 +130,6 @@ Public Class dtlClientes
 
 
     End Sub
+
+  
 End Class

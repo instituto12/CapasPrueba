@@ -135,3 +135,18 @@ C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.Gene
 C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
 C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
 C:\Proyectos\Capas\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\wflSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\brlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\bin\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbprojResolveAssemblyReference.cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.Resources.resources
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.vbproj.GenerateResource.Cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\wflSistema\obj\Debug\wflSistema.pdb

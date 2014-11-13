@@ -5,17 +5,20 @@
 	@calle varchar(100),
 	@email varchar(100),
 	@dirWeb varchar(100)
-	
+	@localidad varchar(30),
 AS 
 INSERT INTO Clientes (idcliente,
 					razonsocial,
 					cuil,
 					calle,
 					mail,
-					web) 
+					web,
+					localidad) 
+					
 	VALUES(@idCliente, 
 			@razonsocial,
 			@cuil,
 			@calle,
 			@email,
-			@dirWeb)
+			@dirWeb,
+			@localidad)

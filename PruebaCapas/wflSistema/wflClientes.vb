@@ -22,7 +22,8 @@ Public Class wflClientes
                                 Optional ByVal email As String = Nothing,
                                 Optional ByVal dirWeb As String = Nothing,
                                 Optional ByVal telefono As String = Nothing,
-                                Optional ByVal telefonocelular As String = Nothing)
+                                Optional ByVal telefonocelular As String = Nothing,
+                                Optional ByVal localidad As String = Nothing)
         Dim x As New brlClientes
         Dim clientes As New DataTable
         Dim id As Integer
@@ -30,7 +31,8 @@ Public Class wflClientes
         If Not x.ExisteCliente(idcliente) Then
 
             If Not x.ExisteCUIL(CUIL) Then
-                x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono, telefonocelular)
+                x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono, telefonocelular, localidad
+                                   )
                 strmensaje = "El cliente se agrego con exito"
             Else
                 x.obtenerRegistroCuil(CUIL, clientes)
@@ -60,4 +62,9 @@ Public Class wflClientes
     ' En ese caso debere tener en la dtl un una dtl de facturas
     ' Una brl de facturas
     ' y aca traerlas y trabajarlas.
+
+    Sub insertarRegistro(strmensaje As String, p2 As String, p3 As String, p4 As String, p5 As String, p6 As String, p7 As String, p8 As String, p9 As String, p10 As String, p11 As String)
+        Throw New NotImplementedException
+    End Sub
+
 End Class

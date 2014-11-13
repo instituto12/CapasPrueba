@@ -79,3 +79,11 @@ C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.Gene
 C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
 C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
 C:\Proyectos\Capas\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.pdb
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\bin\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.Resources.resources
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.vbproj.GenerateResource.Cache
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.dll
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.xml
+C:\Users\Juan Pablo\Capas\PruebaCapas\dtlSistema\obj\Debug\dtlSistema.pdb

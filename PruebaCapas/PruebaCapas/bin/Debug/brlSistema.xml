@@ -6,13 +6,7 @@ brlSistema
 </name>
 </assembly>
 <members>
-<member name="M:brlSistema.brlClientes.eliminarRegistro(System.Int32)">
-	<summary>
- Este es un metodo que elimina un cliente dado su id
- </summary>
-	<param name="idcliente"></param>
-	<remarks></remarks>
-</member><member name="P:brlSistema.My.Resources.Resources.ResourceManager">
+<member name="P:brlSistema.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -25,6 +19,12 @@ brlSistema
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="M:brlSistema.brlClientes.eliminarRegistro(System.Int32)">
+	<summary>
+ Este es un metodo que elimina un cliente dado su id
+ </summary>
+	<param name="idcliente"></param>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

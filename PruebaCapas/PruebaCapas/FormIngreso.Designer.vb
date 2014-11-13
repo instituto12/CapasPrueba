@@ -38,10 +38,12 @@ Partial Class FormIngreso
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtDirWeb = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtTelefono = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtLocalidad = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtTelefonocelular = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtTelefono = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -78,7 +80,7 @@ Partial Class FormIngreso
         '
         'btnCerrar
         '
-        Me.btnCerrar.Location = New System.Drawing.Point(48, 296)
+        Me.btnCerrar.Location = New System.Drawing.Point(48, 326)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(75, 23)
         Me.btnCerrar.TabIndex = 3
@@ -96,7 +98,7 @@ Partial Class FormIngreso
         '
         'btnInsertar
         '
-        Me.btnInsertar.Location = New System.Drawing.Point(171, 296)
+        Me.btnInsertar.Location = New System.Drawing.Point(171, 326)
         Me.btnInsertar.Name = "btnInsertar"
         Me.btnInsertar.Size = New System.Drawing.Size(75, 23)
         Me.btnInsertar.TabIndex = 8
@@ -105,7 +107,7 @@ Partial Class FormIngreso
         '
         'btnEliminar
         '
-        Me.btnEliminar.Location = New System.Drawing.Point(288, 296)
+        Me.btnEliminar.Location = New System.Drawing.Point(288, 326)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(75, 23)
         Me.btnEliminar.TabIndex = 9
@@ -176,21 +178,21 @@ Partial Class FormIngreso
         Me.txtDirWeb.Size = New System.Drawing.Size(234, 20)
         Me.txtDirWeb.TabIndex = 7
         '
-        'Label7
+        'Label9
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(71, 200)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 13)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Teléfono:"
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(68, 273)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(52, 13)
+        Me.Label9.TabIndex = 14
+        Me.Label9.Text = "Teléfono:"
         '
-        'txtTelefono
+        'txtLocalidad
         '
-        Me.txtTelefono.Location = New System.Drawing.Point(129, 197)
-        Me.txtTelefono.Name = "txtTelefono"
-        Me.txtTelefono.Size = New System.Drawing.Size(234, 20)
-        Me.txtTelefono.TabIndex = 15
+        Me.txtLocalidad.Location = New System.Drawing.Point(129, 197)
+        Me.txtLocalidad.Name = "txtLocalidad"
+        Me.txtLocalidad.Size = New System.Drawing.Size(234, 20)
+        Me.txtLocalidad.TabIndex = 19
         '
         'Label8
         '
@@ -208,15 +210,33 @@ Partial Class FormIngreso
         Me.txtTelefonocelular.Size = New System.Drawing.Size(234, 20)
         Me.txtTelefonocelular.TabIndex = 17
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(67, 204)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(56, 13)
+        Me.Label7.TabIndex = 18
+        Me.Label7.Text = "Localidad:"
+        '
+        'txtTelefono
+        '
+        Me.txtTelefono.Location = New System.Drawing.Point(129, 266)
+        Me.txtTelefono.Name = "txtTelefono"
+        Me.txtTelefono.Size = New System.Drawing.Size(234, 20)
+        Me.txtTelefono.TabIndex = 15
+        '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(467, 381)
-        Me.Controls.Add(Me.txtTelefonocelular)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.txtTelefono)
         Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.txtTelefonocelular)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.txtLocalidad)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.txtDirWeb)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtEmail)
@@ -256,8 +276,10 @@ Partial Class FormIngreso
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents txtDirWeb As System.Windows.Forms.TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents txtTelefono As System.Windows.Forms.TextBox
+    Friend WithEvents txtLocalidad As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents txtTelefonocelular As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents txtTelefono As System.Windows.Forms.TextBox
 
 End Class
