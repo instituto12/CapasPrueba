@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using wflSistema;
+using System.Data;
 
 namespace AppMVC.Controllers
 {
@@ -17,7 +18,6 @@ namespace AppMVC.Controllers
 
         public ActionResult Index()
         {
-
             return View();
         }
 
@@ -38,9 +38,26 @@ namespace AppMVC.Controllers
         {
             wflClientes owflcli = new wflClientes();
             string strmensaje="";
-            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio, cli.email,cli.pagWeb, null, null);
+            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial);
             return View();
         }
 
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Buscar(ClientesModel cli)
+        {
+            wflClientes owflcli = new wflClientes();
+            DataTable cliente = new DataTable();
+            ClientesModel _cliente = new ClientesModel();
+            string strmensaje = "";
+            owflcli.obtenerRegistro(cli.NroCliente,ref cliente );
+            
+            _cliente.NroCliente=Convert.ToInt16(cliente.Rows[0]["idcliente"]);
+            _cliente.RazonSocial = cliente.Rows[0]["razonsocial"].ToString();
+
+
+            return View(_cliente);
+        }
     }
 }

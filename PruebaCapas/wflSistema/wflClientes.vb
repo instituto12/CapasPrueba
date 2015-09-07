@@ -17,13 +17,8 @@ Public Class wflClientes
     Public Sub insertarRegistro(ByRef strmensaje As String,
                                 ByVal idcliente As Integer,
                                 ByVal CUIL As String,
-                                ByVal strrazonsocial As String,
-                                ByVal calle As String,
-                                Optional ByVal email As String = Nothing,
-                                Optional ByVal dirWeb As String = Nothing,
-                                Optional ByVal telefono As String = Nothing,
-                                Optional ByVal telefonocelular As String = Nothing,
-                                Optional ByVal localidad As String = Nothing)
+                                ByVal strrazonsocial As String
+                                )
         Dim x As New brlClientes
         Dim clientes As New DataTable
         Dim id As Integer
@@ -31,8 +26,7 @@ Public Class wflClientes
         If Not x.ExisteCliente(idcliente) Then
 
             If Not x.ExisteCUIL(CUIL) Then
-                x.insertarRegistro(idcliente, CUIL, strrazonsocial, calle, email, dirWeb, telefono, telefonocelular, localidad
-                                   )
+                x.insertarRegistro(idcliente, CUIL, strrazonsocial)
                 strmensaje = "El cliente se agrego con exito"
             Else
                 x.obtenerRegistroCuil(CUIL, clientes)

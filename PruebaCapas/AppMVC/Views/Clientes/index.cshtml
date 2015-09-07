@@ -1,41 +1,55 @@
 ﻿@model AppMVC.Models.ClientesModel
+
 @{
-
-    ViewBag.Title = "Clientes";
-}
-@if (ViewData.ModelState.IsValid)
-{
-    if(@ViewBag.CUIL != null)
-    {
-        @ViewBag.CUIL;
-    }
+    ViewBag.Title = "Búsqueda de Clientes";
 }
 
-<h2>Clientes</h2>
+<h2>Edit</h2>
 
-@using (Html.BeginForm("Insertar", "Clientes", FormMethod.Post))
+@using (Html.BeginForm("Buscar", "Clientes", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
-    @Html.ValidationSummary()
+    @Html.ValidationSummary(true)
 
-   <dl class="dl-horizontal">
-        <dt>
-           @Html.LabelFor(model => model.NroCliente)
-           @Html.TextBoxFor(model => model.NroCliente)
-           @Html.LabelFor(model => model.CUIL)
-           @Html.TextBoxFor(model => model.CUIL)
-           @Html.ValidationMessageFor(model => Model.CUIL)
-           @Html.LabelFor(model => model.RazonSocial)
-           @Html.TextBoxFor(model => model.RazonSocial)
-           @Html.LabelFor(model => model.Domicilio)
-           @Html.TextBoxFor(model => model.Domicilio)
-           @Html.LabelFor(model => model.email)
-           @Html.TextBoxFor(model => model.email)
-           @Html.LabelFor(model => model.pagWeb)
-           @Html.TextBoxFor(model => model.pagWeb)
-         </dt>
-     </dl>
-    <p> <input type="submit" value="Enviar formulario" /> </p>
+    <fieldset>
+        <legend>Siniestro</legend>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NroCliente)
+        </div>
+        
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NroCliente)
+            @Html.ValidationMessageFor(model => model.NroCliente)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RazonSocial)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RazonSocial)
+            @Html.ValidationMessageFor(model => model.RazonSocial)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CUIL)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CUIL)
+            @*@Html.ValidationMessageFor(model => model.CUIL)*@
+        </div>
+
+        
+
+
+
+        <p>
+            <input type="submit" value="Buscar" />
+        </p>
+    </fieldset>
 }
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>
 

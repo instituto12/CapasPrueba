@@ -21,11 +21,6 @@ Public Class FormIngreso
                 Me.txtIdCliente.Text = MiDataRow(0).ToString()
                 Me.txtrazonsocial.Text = MiDataRow(1).ToString()
                 Me.txtCUIL.Text = MiDataRow(2).ToString()
-                Me.txtcalle.Text = MiDataRow(3).ToString()
-                Me.txtEmail.Text = MiDataRow(4).ToString()
-                Me.txtDirWeb.Text = MiDataRow(5).ToString()
-                Me.txtLocalidad.Text = MiDataRow(6).ToString()
-                Me.txtTelefono.Text = MiDataRow(7).ToString()
             Next
         Else
             MsgBox("El cliente no existe en la base de datos", vbInformation + vbOKOnly, "Aviso al operador")
@@ -41,7 +36,7 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtcalle.Text, txtEmail.Text, txtDirWeb.Text, txtTelefono.Text, txtTelefonocelular.Text, txtLocalidad.Text)
+        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
@@ -63,11 +58,6 @@ Public Class FormIngreso
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
         txtCUIL.Text = ""
-        txtcalle.Text = ""
-        txtEmail.Text = ""
-        txtDirWeb.Text = ""
-        txtLocalidad.Text = ""
-        txtTelefono.Text = ""
 
     End Sub
 
@@ -79,11 +69,11 @@ Public Class FormIngreso
 
     End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub txtcalle_TextChanged(sender As Object, e As EventArgs) Handles txtcalle.TextChanged
+    Private Sub txtcalle_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -91,19 +81,19 @@ Public Class FormIngreso
 
     End Sub
 
-    Private Sub txtLocalidad_TextChanged(sender As Object, e As EventArgs) Handles txtLocalidad.TextChanged
+    Private Sub txtLocalidad_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+    Private Sub Label7_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub txtTelefono_TextChanged(sender As Object, e As EventArgs) Handles txtTelefono.TextChanged
+    Private Sub txtTelefono_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+    Private Sub Label9_Click(sender As Object, e As EventArgs)
 
     End Sub
 

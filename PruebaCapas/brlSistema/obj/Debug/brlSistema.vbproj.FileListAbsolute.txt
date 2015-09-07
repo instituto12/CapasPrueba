@@ -120,3 +120,15 @@ C:\Users\Juan Pablo\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.Gen
 C:\Users\Juan Pablo\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
 C:\Users\Juan Pablo\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
 C:\Users\Juan Pablo\Capas\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\brlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\brlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\brlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\dtlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\dtlSistema.pdb
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\bin\Debug\dtlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbprojResolveAssemblyReference.cache
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.Resources.resources
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateResource.Cache
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
+C:\PruebaCapasInstituto12\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
