@@ -55,6 +55,7 @@ namespace AppMVC.Controllers
             
             _cliente.NroCliente=Convert.ToInt16(cliente.Rows[0]["idcliente"]);
             _cliente.RazonSocial = cliente.Rows[0]["razonsocial"].ToString();
+            _cliente.CUIL = cliente.Rows[0]["cuil"].ToString();
 
 
             return View(_cliente);

@@ -61,7 +61,7 @@ Partial Class FormIngreso
         '
         'btnAceptar
         '
-        Me.btnAceptar.Location = New System.Drawing.Point(187, 50)
+        Me.btnAceptar.Location = New System.Drawing.Point(317, 127)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(75, 23)
         Me.btnAceptar.TabIndex = 2
@@ -70,7 +70,7 @@ Partial Class FormIngreso
         '
         'btnInsertar
         '
-        Me.btnInsertar.Location = New System.Drawing.Point(171, 127)
+        Me.btnInsertar.Location = New System.Drawing.Point(144, 127)
         Me.btnInsertar.Name = "btnInsertar"
         Me.btnInsertar.Size = New System.Drawing.Size(75, 23)
         Me.btnInsertar.TabIndex = 8
@@ -79,7 +79,7 @@ Partial Class FormIngreso
         '
         'btnEliminar
         '
-        Me.btnEliminar.Location = New System.Drawing.Point(288, 127)
+        Me.btnEliminar.Location = New System.Drawing.Point(236, 127)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(75, 23)
         Me.btnEliminar.TabIndex = 9

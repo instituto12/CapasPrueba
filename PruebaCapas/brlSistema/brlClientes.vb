@@ -4,6 +4,7 @@ Public Class brlClientes
     Public Sub obtenerRegistro(ByVal idcliente As Integer, ByRef clientes As DataTable)
         Dim x As New dtlClientes
         'MsgBox("BRL-busca ID", vbInformation + vbOKOnly, "Aviso al operador")
+
         x.obtenerRegistro(idcliente, clientes)
     End Sub
     Public Sub obtenerRegistroCuil(ByVal CUIL As String, ByRef clientes As DataTable)
