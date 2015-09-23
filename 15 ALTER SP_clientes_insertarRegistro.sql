@@ -1,4 +1,4 @@
-﻿
+﻿Esto lo puso diego
 ALTER procedure dbo.clientes_insertarRegistro 
 	@idCliente int, 
 	@razonsocial varchar(100),
