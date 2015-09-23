@@ -1,4 +1,4 @@
-﻿
+﻿ESto lo puso cristian
 ALTER procedure dbo.clientes_insertarRegistro 
 	@idCliente int, 
 	@razonsocial varchar(100),
