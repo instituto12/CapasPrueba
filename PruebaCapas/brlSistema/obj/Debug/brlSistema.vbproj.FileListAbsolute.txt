@@ -144,3 +144,15 @@ C:\DISI12\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateResource.Ca
 C:\DISI12\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
 C:\DISI12\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
 C:\DISI12\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\brlSistema.dll
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\brlSistema.pdb
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\brlSistema.xml
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\dtlSistema.dll
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\dtlSistema.pdb
+C:\GIT\PruebaCapas\brlSistema\bin\Debug\dtlSistema.xml
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbprojResolveAssemblyReference.cache
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.Resources.resources
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.vbproj.GenerateResource.Cache
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.dll
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.xml
+C:\GIT\PruebaCapas\brlSistema\obj\Debug\brlSistema.pdb
