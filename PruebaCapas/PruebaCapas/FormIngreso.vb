@@ -21,6 +21,9 @@ Public Class FormIngreso
                 Me.txtIdCliente.Text = MiDataRow(0).ToString()
                 Me.txtrazonsocial.Text = MiDataRow(1).ToString()
                 Me.txtCUIL.Text = MiDataRow(2).ToString()
+                Me.txtdomicilio.Text = MiDataRow(3).ToString()
+
+
             Next
         Else
             MsgBox("El cliente no existe en la base de datos", vbInformation + vbOKOnly, "Aviso al operador")
@@ -58,6 +61,7 @@ Public Class FormIngreso
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
         txtCUIL.Text = ""
+        txtdomicilio.Text = ""
 
     End Sub
 
