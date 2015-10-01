@@ -32,6 +32,8 @@ Partial Class FormIngreso
         Me.txtrazonsocial = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtCUIL = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtPaginaWeb = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -89,7 +91,7 @@ Partial Class FormIngreso
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 80)
+        Me.Label2.Location = New System.Drawing.Point(26, 53)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 1
@@ -97,9 +99,9 @@ Partial Class FormIngreso
         '
         'txtrazonsocial
         '
-        Me.txtrazonsocial.Location = New System.Drawing.Point(129, 77)
+        Me.txtrazonsocial.Location = New System.Drawing.Point(105, 50)
         Me.txtrazonsocial.Name = "txtrazonsocial"
-        Me.txtrazonsocial.Size = New System.Drawing.Size(234, 20)
+        Me.txtrazonsocial.Size = New System.Drawing.Size(258, 20)
         Me.txtrazonsocial.TabIndex = 4
         '
         'Label4
@@ -118,11 +120,29 @@ Partial Class FormIngreso
         Me.txtCUIL.Size = New System.Drawing.Size(110, 20)
         Me.txtCUIL.TabIndex = 1
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(26, 85)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(71, 13)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Pagina WEB:"
+        '
+        'txtPaginaWeb
+        '
+        Me.txtPaginaWeb.Location = New System.Drawing.Point(105, 82)
+        Me.txtPaginaWeb.Name = "txtPaginaWeb"
+        Me.txtPaginaWeb.Size = New System.Drawing.Size(258, 20)
+        Me.txtPaginaWeb.TabIndex = 12
+        '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(467, 171)
+        Me.Controls.Add(Me.txtPaginaWeb)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtCUIL)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnEliminar)
@@ -149,5 +169,7 @@ Partial Class FormIngreso
     Friend WithEvents txtrazonsocial As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents txtCUIL As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtPaginaWeb As System.Windows.Forms.TextBox
 
 End Class
