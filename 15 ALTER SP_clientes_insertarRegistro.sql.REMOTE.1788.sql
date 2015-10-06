@@ -1,6 +1,7 @@
-﻿Esto lo puso diego
+﻿El campo apellido lo agrego gabriel   
 ALTER procedure dbo.clientes_insertarRegistro 
 	@idCliente int, 
+	@apellido varchar(50),
 	@razonsocial varchar(100),
 	@cuil char(11),
 	@calle varchar(100),
@@ -12,6 +13,7 @@ ALTER procedure dbo.clientes_insertarRegistro
 	
 AS 
 INSERT INTO Clientes (idcliente,
+					apellido,
 					razonsocial,
 					cuil,
 					calle,
@@ -22,6 +24,7 @@ INSERT INTO Clientes (idcliente,
 					telefonocelular)
 					 
 	VALUES(@idCliente, 
+			@apellido,
 			@razonsocial,
 			@cuil,
 			@calle,

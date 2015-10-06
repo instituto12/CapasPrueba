@@ -38,7 +38,7 @@ namespace AppMVC.Controllers
         {
             wflClientes owflcli = new wflClientes();
             string strmensaje="";
-            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial);
+            owflcli.insertarRegistro(ref strmensaje, cli.NroCliente, cli.CUIL, cli.RazonSocial, cli.Domicilio);
             return View();
         }
 
@@ -52,12 +52,15 @@ namespace AppMVC.Controllers
             ClientesModel _cliente = new ClientesModel();
             string strmensaje = "";
             owflcli.obtenerRegistro(cli.NroCliente,ref cliente );
-            
+            try
+            {
             _cliente.NroCliente=Convert.ToInt16(cliente.Rows[0]["idcliente"]);
             _cliente.RazonSocial = cliente.Rows[0]["razonsocial"].ToString();
             _cliente.CUIL = cliente.Rows[0]["cuil"].ToString();
-
-
+            _cliente.Domicilio = cliente.Rows[0]["domicilio"].ToString();
+            }
+            catch{}
+            
             return View(_cliente);
         }
     }

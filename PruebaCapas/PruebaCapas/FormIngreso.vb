@@ -21,7 +21,13 @@ Public Class FormIngreso
                 Me.txtIdCliente.Text = MiDataRow(0).ToString()
                 Me.txtrazonsocial.Text = MiDataRow(1).ToString()
                 Me.txtCUIL.Text = MiDataRow(2).ToString()
+<<<<<<< HEAD
                 Me.txtPaginaWeb.Text = MiDataRow(3).ToString()
+=======
+                Me.txtdomicilio.Text = MiDataRow(3).ToString()
+
+
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
             Next
         Else
             MsgBox("El cliente no existe en la base de datos", vbInformation + vbOKOnly, "Aviso al operador")
@@ -37,7 +43,11 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
+<<<<<<< HEAD
         x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtPaginaWeb.Text)
+=======
+        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtdomicilio.Text)
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
@@ -59,7 +69,11 @@ Public Class FormIngreso
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
         txtCUIL.Text = ""
+<<<<<<< HEAD
         txtPaginaWeb.Text = ""
+=======
+        txtdomicilio.Text = ""
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
 
     End Sub
 
@@ -104,6 +118,10 @@ Public Class FormIngreso
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Label5_Click_1(sender As Object, e As EventArgs) Handles Label5.Click
 
     End Sub
 End Class

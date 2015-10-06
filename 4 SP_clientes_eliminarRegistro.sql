@@ -13,6 +13,6 @@ CREATE PROCEDURE clientes_eliminarRegistro
 AS
 BEGIN
 	
-	delete from dbo.Clientes where @idcliente=@idcliente
+	delete from dbo.Clientes where idcliente=@idcliente
 END
 GO

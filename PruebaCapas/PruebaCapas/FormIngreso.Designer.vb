@@ -32,14 +32,19 @@ Partial Class FormIngreso
         Me.txtrazonsocial = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtCUIL = New System.Windows.Forms.TextBox()
+<<<<<<< HEAD
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtPaginaWeb = New System.Windows.Forms.TextBox()
+=======
+        Me.txtdomicilio = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(26, 27)
+        Me.Label1.Location = New System.Drawing.Point(25, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(97, 13)
         Me.Label1.TabIndex = 0
@@ -54,7 +59,7 @@ Partial Class FormIngreso
         '
         'btnCerrar
         '
-        Me.btnCerrar.Location = New System.Drawing.Point(48, 127)
+        Me.btnCerrar.Location = New System.Drawing.Point(49, 166)
         Me.btnCerrar.Name = "btnCerrar"
         Me.btnCerrar.Size = New System.Drawing.Size(75, 23)
         Me.btnCerrar.TabIndex = 3
@@ -63,7 +68,7 @@ Partial Class FormIngreso
         '
         'btnAceptar
         '
-        Me.btnAceptar.Location = New System.Drawing.Point(317, 127)
+        Me.btnAceptar.Location = New System.Drawing.Point(318, 166)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(75, 23)
         Me.btnAceptar.TabIndex = 2
@@ -72,7 +77,7 @@ Partial Class FormIngreso
         '
         'btnInsertar
         '
-        Me.btnInsertar.Location = New System.Drawing.Point(144, 127)
+        Me.btnInsertar.Location = New System.Drawing.Point(145, 166)
         Me.btnInsertar.Name = "btnInsertar"
         Me.btnInsertar.Size = New System.Drawing.Size(75, 23)
         Me.btnInsertar.TabIndex = 8
@@ -81,7 +86,7 @@ Partial Class FormIngreso
         '
         'btnEliminar
         '
-        Me.btnEliminar.Location = New System.Drawing.Point(236, 127)
+        Me.btnEliminar.Location = New System.Drawing.Point(237, 166)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(75, 23)
         Me.btnEliminar.TabIndex = 9
@@ -107,7 +112,7 @@ Partial Class FormIngreso
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(212, 24)
+        Me.Label4.Location = New System.Drawing.Point(216, 26)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 13)
         Me.Label4.TabIndex = 10
@@ -115,11 +120,12 @@ Partial Class FormIngreso
         '
         'txtCUIL
         '
-        Me.txtCUIL.Location = New System.Drawing.Point(253, 21)
+        Me.txtCUIL.Location = New System.Drawing.Point(253, 24)
         Me.txtCUIL.Name = "txtCUIL"
         Me.txtCUIL.Size = New System.Drawing.Size(110, 20)
         Me.txtCUIL.TabIndex = 1
         '
+<<<<<<< HEAD
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -135,14 +141,37 @@ Partial Class FormIngreso
         Me.txtPaginaWeb.Name = "txtPaginaWeb"
         Me.txtPaginaWeb.Size = New System.Drawing.Size(258, 20)
         Me.txtPaginaWeb.TabIndex = 12
+=======
+        'txtdomicilio
+        '
+        Me.txtdomicilio.Location = New System.Drawing.Point(128, 109)
+        Me.txtdomicilio.Name = "txtdomicilio"
+        Me.txtdomicilio.Size = New System.Drawing.Size(234, 20)
+        Me.txtdomicilio.TabIndex = 14
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(49, 112)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(52, 13)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "Domicilio:"
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
         '
         'FormIngreso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(467, 171)
         Me.Controls.Add(Me.txtPaginaWeb)
         Me.Controls.Add(Me.Label3)
+=======
+        Me.ClientSize = New System.Drawing.Size(467, 201)
+        Me.Controls.Add(Me.txtdomicilio)
+        Me.Controls.Add(Me.Label5)
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
         Me.Controls.Add(Me.txtCUIL)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnEliminar)
@@ -169,7 +198,12 @@ Partial Class FormIngreso
     Friend WithEvents txtrazonsocial As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents txtCUIL As System.Windows.Forms.TextBox
+<<<<<<< HEAD
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents txtPaginaWeb As System.Windows.Forms.TextBox
 
+=======
+    Friend WithEvents txtdomicilio As System.Windows.Forms.TextBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+>>>>>>> 6234861dbfb53e30d8bfc254229905df7e6eb39b
 End Class
