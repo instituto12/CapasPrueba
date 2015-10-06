@@ -20,12 +20,13 @@ Public Class Form1
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(txtIdCliente.Text, txtrazonsocial.Text, strmensaje)
+        x.insertarRegistro(txtIdCliente.Text, txtrazonsocial.Text, txtpaginaweb.Text, strmensaje)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
+        txtpaginaweb.Text = ""
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -36,5 +37,7 @@ Public Class Form1
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
+        txtpaginaweb.Text = ""
+
     End Sub
 End Class

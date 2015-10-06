@@ -30,6 +30,7 @@ Partial Class FormIngreso
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtrazonsocial = New System.Windows.Forms.TextBox()
+        Me.paginaweb = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtCUIL = New System.Windows.Forms.TextBox()
         Me.txtapellido = New System.Windows.Forms.TextBox()
@@ -167,6 +168,7 @@ Partial Class FormIngreso
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtrazonsocial As System.Windows.Forms.TextBox
+    Friend WithEvents txtpaginaweb As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents txtCUIL As System.Windows.Forms.TextBox
     Friend WithEvents txtapellido As TextBox
