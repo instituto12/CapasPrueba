@@ -231,3 +231,6 @@ C:\DISI12\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbprojResolve
 C:\DISI12\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.FormIngreso.resources
 C:\DISI12\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.Resources.resources
 C:\DISI12\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.vbproj.GenerateResource.Cache
+D:\Git-Carpetas\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.exe
+D:\Git-Carpetas\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.xml
+D:\Git-Carpetas\Grupo1\PruebaCapas\PruebaCapas\obj\x86\Debug\PruebaCapas.pdb
