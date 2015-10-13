@@ -61,7 +61,7 @@ Public Class dtlClientes
 
     End Sub
 
-    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef CUIL As String, ByRef strrazonSocial As String, ByRef txtapellido As String)
+    Public Sub insertarRegistro(ByRef intidcliente As Integer, ByRef CUIL As String, ByRef strrazonSocial As String, ByRef txtapellido As String, ByRef txtpaginaweb As String)
         'oConn = New SqlConnection("Server=USUARIO-PC\SQLEXPRESS;Database=optisys;User Id=sa;Password=;")
         oConn = New SqlConnection("Server=.\SQLEXPRESS;Database=Segpool;Trusted_Connection=True;")
         If oConn.State = 1 Then oConn.Close()
@@ -73,6 +73,7 @@ Public Class dtlClientes
         param(1) = New SqlParameter("@txtapellido", txtapellido)
         param(2) = New SqlParameter("@txtrazonsocial", strrazonSocial)
         param(3) = New SqlParameter("@cuil", CUIL)
+        param(4) = New SqlParameter("@paginaweb", txtpaginaweb)
         cmd.CommandType = CommandType.StoredProcedure
         cmd.CommandText = "clientes_insertarRegistro"
         cmd.Connection = oConn

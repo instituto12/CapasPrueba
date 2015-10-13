@@ -20,6 +20,7 @@ Public Class FormIngreso
             For Each MiDataRow As DataRow In dt.Rows
                 Me.txtIdCliente.Text = MiDataRow(0).ToString()
                 Me.txtrazonsocial.Text = MiDataRow(1).ToString()
+                Me.txtpaginaweb.Text = MiDataRow(4).ToString()
                 Me.txtCUIL.Text = MiDataRow(2).ToString()
                 Me.txtapellido.Text = MiDataRow(3).ToString()
             Next
@@ -37,7 +38,7 @@ Public Class FormIngreso
         Dim x As New wflClientes
         Dim strmensaje As String = ""
 
-        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtapellido.Text)
+        x.insertarRegistro(strmensaje, txtIdCliente.Text, txtCUIL.Text, txtrazonsocial.Text, txtapellido.Text, paginaweb.Text)
 
         MsgBox(strmensaje, MsgBoxStyle.OkOnly, "Mensaje al operador")
 
@@ -59,6 +60,7 @@ Public Class FormIngreso
         txtIdCliente.Text = ""
         txtrazonsocial.Text = ""
         txtCUIL.Text = ""
+        txtpaginaweb.Text = ""
 
     End Sub
 

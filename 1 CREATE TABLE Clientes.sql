@@ -15,7 +15,7 @@ CREATE TABLE [dbo].[Clientes](
 	[idcliente] [int] NULL,
 	[apellido] [varchar](50) NULL,
 	[razonsocial] [varchar](100) NULL,
-	
+	[paginaweb] [varchar](100) NULL,
 
 ) ON [PRIMARY]
 

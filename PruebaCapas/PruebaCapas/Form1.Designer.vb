@@ -26,6 +26,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtIdCliente = New System.Windows.Forms.TextBox()
         Me.txtrazonsocial = New System.Windows.Forms.TextBox()
+        Me.txtpaginaweb = New System.Windows.Forms.TextBox()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.btnAceptar = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -64,6 +65,16 @@ Partial Class Form1
         Me.txtrazonsocial.Size = New System.Drawing.Size(234, 20)
         Me.txtrazonsocial.TabIndex = 3
         '
+        'txtpaginaweb
+        '
+        Me.txtrazonsocial.Location = New System.Drawing.Point(159, 139)
+        Me.txtrazonsocial.Name = "txtpaginaweb"
+        Me.txtrazonsocial.Size = New System.Drawing.Size(234, 20)
+        Me.txtrazonsocial.TabIndex = 3
+        '
+
+
+
         'btnCerrar
         '
         Me.btnCerrar.Location = New System.Drawing.Point(12, 262)
@@ -123,6 +134,7 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtIdCliente As System.Windows.Forms.TextBox
     Friend WithEvents txtrazonsocial As System.Windows.Forms.TextBox
+    Friend WithEvents txtpaginaweb As System.Windows.Forms.TextBox
     Friend WithEvents btnCerrar As System.Windows.Forms.Button
     Friend WithEvents btnAceptar As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
